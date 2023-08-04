@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    max-width: 35px;
+}
+
+
+/*
+
+HEADER: 
+font-family: 'Acme', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lilita One', cursive;
+font-family: 'Noto Serif', serif;
+
+
+BODY:
+font-family: 'Baloo 2', cursive;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif; 
+
+*/

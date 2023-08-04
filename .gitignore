@@ -4,3 +4,4 @@ node_modules
 .prettierignore
 .eslintignore
 settings.json
+design_files
