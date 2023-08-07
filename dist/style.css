@@ -43,6 +43,12 @@ h3 {
     max-width: 35px;
 }
 
+.icon-container img:hover,
+.link-container img:hover {
+    background-color: var(--color1);
+    filter: brightness(90%);
+}
+
 /* ~~~~~~~~~~ABOUT ME~~~~~~~~~~ */
 
 .about-me {
@@ -68,7 +74,7 @@ h3 {
 
 .about-text {
     background-color: var(--color1);
-    padding: 30px 25px 20px;
+    padding: 30px 25px;
     box-shadow: var(--box-shadow);
     border-radius: 0px 5px 5px 0px;
 }
@@ -80,6 +86,10 @@ h3 {
 
 .icon-container {
     text-align: right;
+}
+
+.icon-container img {
+    vertical-align: middle;
 }
 
 .icon-container a {
@@ -132,7 +142,7 @@ h3 {
     text-align: right;
 }
 
-.link-container a {
+.link-container a:first-child {
     margin-right: 10px;
 }
 
