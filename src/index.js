@@ -62,8 +62,6 @@ addProject('Etch-A-Sketch', 'images/etchasketch.png', 'https://github.com/caylin
 
 // TO DO
 
-// STYLE PROJECT INFO
-
 // STYLE CONTACT INFO
 
 // CREATE TABLET VIEW
