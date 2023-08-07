@@ -1,31 +1,97 @@
+:root {
+    --color1: #FFEADD;
+    --color2: #FCAEAE;
+    --color3: #FF8989;
+    --color4: #FF6666;
+    --box-shadow: #919191;
+    --body-font-size: 20px;
+    --h1-font-size: 50px;
+    --h2-font-size: 32px;
+    --h3-font-size: 22px;
+
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(170deg, var(--color3) 13%, var(--color1) 13%);
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: var(--body-font-size);
+    font-family: 'Baloo 2', cursive;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
 }
 
 .icon {
     max-width: 35px;
 }
 
+/* ~~~~~~~~~~ABOUT ME~~~~~~~~~~ */
+
+.about-me {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-me h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: var(--h1-font-size);
+    color: var(--color1);
+    background-color: black;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.about-me img {
+    border-radius: 5px;
+}
+
+.about-text {
+    background-color: var(--color1);
+    padding: 30px 25px 20px;
+    box-shadow: 1px 1px 10px var(--box-shadow);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.about-text h2,
+.about-text p {
+    padding-bottom: 10px;
+}
+
+.icon-container {
+    text-align: right;
+}
+
+.icon-container a {
+    padding-right: 15px;
+}
+
+/* ~~~~~~~~~~MY PROJECTS~~~~~~~~~~ */
+
 .project-img {
     max-width: 400px;
 }
 
-/*
-
-HEADER: 
-font-family: 'Acme', sans-serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Inconsolata', monospace;
-font-family: 'Lilita One', cursive;
-font-family: 'Noto Serif', serif;
+/* ~~~~~~~~~~CONTACT ME~~~~~~~~~~ */
 
 
-BODY:
-font-family: 'Baloo 2', cursive;
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Signika Negative', sans-serif; 
-
-*/
