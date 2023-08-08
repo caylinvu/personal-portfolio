@@ -75,7 +75,7 @@ h3 {
 }
 
 .about-me > img {
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 5px;
 }
 
@@ -165,7 +165,10 @@ h3 {
     display: flex;
     padding: 50px 0px;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
+    position: relative;
+    box-shadow: 0 0 0 100vmax var(--color3);
+    clip-path: inset(0 -100vmax);
 }
 
 .contact-text > * {
@@ -191,5 +194,6 @@ h3 {
 }
 
 .contact-me > img {
-    max-width: 600px;
+    max-width: 500px;
+    border-radius: 5px;
 }
