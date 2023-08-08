@@ -66,7 +66,7 @@ h3 {
 
 .about-me h1 {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 30px;
     font-size: var(--h1-font-size);
     color: var(--color1);
@@ -75,9 +75,8 @@ h3 {
     border-radius: 5px;
 }
 
-.about-me > img {
+.about-img img {
     max-width: 400px;
-    width: 100%;
     border-radius: 5px;
 }
 
@@ -197,7 +196,6 @@ h3 {
 
 .contact-img img {
     max-width: 500px;
-    /* width: 100%; */
     border-radius: 5px;
 }
 
@@ -224,7 +222,7 @@ h3 {
 
     }
 
-    .about-me > img {
+    .about-img img {
         float: left;
         margin: -175px 15px -5px -25px;
         max-width: 325px;
@@ -232,6 +230,7 @@ h3 {
 
     .about-text {
         padding: 45px 25px 30px;
+        border-radius: 0px 5px 5px 5px;
     }
 
     h2 {
@@ -281,5 +280,65 @@ h3 {
 /* ~~~~~~~~~~MOBILE VIEW~~~~~~~~~~ */
 
 @media (max-width: 600px) {
+    body {
+        padding: 0 20px;
+        font-size: 18px;
+    }
 
+    .about-me {
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me h1 {
+        left: auto;
+        right: auto;
+        top: 295px;
+        font-size: 40px;
+        background-color: rgb(0, 0, 0, .45);
+    }
+
+    .about-img img {
+        float: none;
+        margin: 0;
+        width: 100%;
+        max-height: 359.22px;
+    }
+
+    .about-text {
+        border-radius: 5px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 0;
+    }
+
+    .contact-me picture {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .contact-img img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 0px;
+    }
 }

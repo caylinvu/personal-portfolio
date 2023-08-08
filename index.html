@@ -11,7 +11,10 @@
 <body>
     <div class="about-me">
         <h1>Caylin Vu</h1>
-        <img src="images/me.PNG" alt="" class="about-img">
+        <picture class="about-img">
+            <source media="(max-width: 600px)" srcset="images/me-mobile.PNG" />
+            <img src="images/me.PNG" alt="" />
+        </picture>
         <div class="about-text">
             <h2>About Me</h2>
             <p>Previously working in banking, I'm an aspiring web developer taking the opportunity to make a career switch. I'm learning through a self-paced, online program called The Odin Project, which has ignited a passion for programming and led me to be able to create the projects linked below. I am eager to continue advancing as a web developer, and I'm seeking opportunies to continue learning and growing in my skills.</p>
@@ -38,10 +41,10 @@
             </div>
         </div>
         <picture class="contact-img">
+            <source media="(max-width: 600px)" srcset="images/me2-mobile.PNG" />
             <source media="(max-width: 950px)" srcset="images/me2-tablet.PNG" />
             <img src="images/me2-desktop.PNG" alt="" />
         </picture>
-        
     </div>
     <script src="main.js"></script>
 </body>
