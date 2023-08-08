@@ -41,11 +41,17 @@ h3 {
 
 .icon {
     max-width: 35px;
+    border-radius: 5px;
 }
 
 .icon-container img:hover,
 .link-container img:hover {
     background-color: var(--color1);
+    filter: brightness(90%);
+}
+
+.icon-container2 img:hover {
+    background-color: var(--color3);
     filter: brightness(90%);
 }
 
@@ -68,7 +74,8 @@ h3 {
     border-radius: 5px;
 }
 
-.about-me img {
+.about-me > img {
+    max-width: 500px;
     border-radius: 5px;
 }
 
@@ -153,4 +160,36 @@ h3 {
 
 /* ~~~~~~~~~~CONTACT ME~~~~~~~~~~ */
 
+.contact-me {
+    background-color: var(--color3);
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+    gap: 30px;
+}
 
+.contact-text > * {
+    padding-bottom: 15px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info img {
+    max-width: 28px;
+}
+
+.icon-container2 a:first-child {
+    margin-right: 10px;
+}
+
+.contact-text div:last-child {
+    padding-top: 5px;
+}
+
+.contact-me > img {
+    max-width: 600px;
+}
