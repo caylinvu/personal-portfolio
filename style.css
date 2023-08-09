@@ -77,7 +77,6 @@ h3 {
 
 .about-img img {
     max-width: 400px;
-    height: auto;
     border-radius: 5px;
 }
 
@@ -311,9 +310,9 @@ h3 {
     .about-img img {
         float: none;
         margin: 0;
-        width: 100%;
         max-height: 359.22px;
-        max-width: none;
+        max-width: 100%;
+        width: auto;
     }
 
     .about-text {
